@@ -2,44 +2,58 @@
 <html>
     <head>
         <title>survey</title>
+        <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="../css/style.css">
+<link rel="stylesheet" href="../css/main.css">
+<link rel="stylesheet" href="../css/survey.css">
     </head>
     <body>
+    <article class="topnav" id="myTopnav">
+    <article class="logo">
+        <img class="Mylogo" src="../images/jpg.webp">
+  <a href="#" class="active">Home</a> 
+  <a href="./home/resource.php">Resource</a>
+  <a href="./home/blog.php">Blog</a>
+  <a href="./users/survey.php">Survey</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</article>
+</article>
+<h3>Fill In The Questionnaire <hr></h3>
 
-
-<h3>fill in the questionnaire</h3>
-<br>
+<div class="form">
 <form action="../actions/questionnaire.php" method="post">
-<label for="first_name">firstname</label>
-<input type="text" name="first_name" required placeholder=" enter first name">
+<label for="first_name">First Name</label>
+<input type="text" name="first_name" required placeholder=" Enter First Name" class="label">
+<label for="surname" class="label">Surname</label>
+<input type="text" name="surname" required placeholder=" Enter First Surname">
 <br>
-<br>
-<label for="surname">surname</label>
-<input type="text" name="surname" required placeholder=" enter first surname">
-<br>
-<br>
-<label for="mobile">mobile number</label>
-<input type="text" name="mobile" required placeholder=" enter phone number">
-<br>
-<br>
-<label for="market">market : </label>
-<select name="market" id="market">
-    <option value="emali">Emali</option>
-    <option value="kimana">kimana</option>
-    <option value="Sultan_hamud">Sulatan hamud</option>
-    <option value="Ewuaso_Kedong">Ewuaso Kedong</option>
+<label for="mobile">Mobile Number</label>
+<input type="text" name="mobile" required placeholder=" Enter Phone Number" class="label">
+ 
+<label for="market" >Market  </label>
+<select name="market" id="market" class="label">
+    <option value="emali">Ewuaso Kedong</option>
+    <option value="kimana">Kimana</option>
+    <option value="Sultan_hamud">Sulatan Hamud</option>
+    <option value="Ewuaso_Kedong">Emali</option>
     <option value="illibilis">ILLIBILIS</option>
 </select>
 <br>
-<label for="species">species  : </label><br>
-Cow
-<input type="radio" name="species" required value="cattle">
-Sheep / Goat
-<input type="radio" name="species" required value="sheep/Goat">
+<label for="species">Species: </label>
+ Cow
+<input type="radio" name="species" required value="cattle" class="radio">
+Sheep/ Goat
+<input type="radio" name="species" required value="cattle" class="radio">
 <br>
 <br>
-<label for="weight">weight</label>
+<label for="weight">Weight</label>
 <select  name="weight" required placeholder=" enter weight">
-  <option value="1-10kg">upto 10kg </option>
+  <option value="1-10kg">Upto 10kg </option>
   <option value="11-20kg">11 to 20kg </option>
   <option value="21-30kg">21 to 30kg </option>
   <option value="31-40kg">31 to 40kg </option>
@@ -66,103 +80,23 @@ Sheep / Goat
   <option value="751-800">751 to 800 </option>
   <option value="801-850">801 to 850 </option>
   <option value="851-900">851 to 900 </option>
-</SElect>
+</Select>
+<label for="price">Price</label>
+<input type="text" name="price" required placeholder=" Enter Price">
 <br>
-<label for="price">price</label>
-<input type="text" name="price" required placeholder=" enter PRICE">
-<br>
-<label for="performance">performance : </label><br>
-poor
+<label for="performance">Performance : </label>
+Poor
 <input type="radio" name="performance" required value=" poor">
-<br>
-good
+Good
 <input type="radio" name="performance" required value="good">
-<br>
-average
+Average
 <input type="radio" name="performance" required value=" average">
-
 <br>
-<button type="submit" style="background: green;" name="submit"> submit  .</button>
+<br>
+<button type="submit" name="submit"> SUBMIT </button>
 
 </form>
-<br>
-<br>
-
-<article class="download">
-    <!-- Auto width -->
-    <button class="btn"><a href="OND 2022 Seasonal Forecast_Detailed" download="OND 2022 Seasonal Forecast_Detailed" class="fa fa-download"></a>OND 2022 seasonal forecast </button>
-    <button class="btn"><a href="Monthly weather Forecast for November 2022" class="fa fa-download"></a>September 2022 Monthly Forecast</button>
-    <button class="btn"><a href="SEVEN-DAY FORECAST valid 15th to 21st November 2022" class="fa fa-download"></a>SEVEN-DAY FORECAST</button>
-    
-</article>
-<article class="last-container">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <a href="https://web.facebook.com/profile.php?id=100072257630546" class="fa fa-facebook"></a>
-        <p></p>
-        <article class="contact">email us:deyasaitabau@gmail.com<br>
-            <p></p>
-        direct-helpline:+254729533373</article>
-        <article class="about">
-            <h1 style="color:blue;">about kilimonet</h1>
-            <p style="width:100%;">kilimonet is a solo proprietorship that is committed to provide timely market prices,meteorological and climatological information and best livestock rearing practices  to all herders and livestock dealers</p>
-                <h1 style="color:blue;">useful links:</h1><a href="https://meteo.go.ke/">Kenya Meteorological Department</a>
-                <p></p>
-                <a href="https://www.kalro.org/">Kenya Agricultural and Livestock Research Organization</a>
-        </article>
-</article> 
+</div>
+ 
     </body>
-    <style>
-        .download{
-right:0;
-display: flex;
-width: 100%;
-height: 8%;
-background-color: #34495e;
-}
-.forecast{
-width: 100%;
-height: 8%;
-display: block;
-color: white;
-padding-top: 35px;
-}
-.forecast :hover{
-background-color:blue
-}
-.last-container{
-width: 100%;;
-height: 30%;
-background-color: #34495e;
-}
-.fa {
-padding-right: 0px;
-padding-bottom: 0px;
-font-size: 2rem;
-width: 50px;
-text-align: center;
-text-decoration: none;
-}
-.fa:hover {
-opacity: 0.7;
-}
-/* Facebook */
-.fa-facebook {
-background: #3B5998;
-color: white;
-}
-.contact{
-font-size: 1.5rem;
-}
-.right{
-padding-right: 0px;
-justify-content: center;
-
-}
-.links{
-display: block;
-margin: 20px;
-justify-content: center;
-height: 20px;
-}
-    </style>
-</html>
+    </html>

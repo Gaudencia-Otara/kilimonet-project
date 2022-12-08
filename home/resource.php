@@ -5,7 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>livestock rearing best practices</title>
-    <link rel="stylesheet" href="../css/main.css">
+    <!-- <link rel="stylesheet" href="../css/main.css"> -->
+    <link rel="stylesheet" href="../css/style.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
 </head>
 <body>
     <article class="wrapper">
@@ -53,34 +55,35 @@
               </article><iframe width="560" height="315" src="https://www.youtube.com/embed/54UgfOhT5Sc?start=1321&end=1635" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               <h1 style="color:blue;">silage making</h1><br><iframe width="560" height="315" src="https://www.youtube.com/embed/gIc_qoUHUNU?start=324" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </article>
-    </article>
+    <!-- </article> -->
  <!--meteorological info-->
- <article class="download">
-    <!-- Auto width -->
-    <button class="btn"><a href="OND 2022 Seasonal Forecast_Detailed" class="fa fa-download"></a>OND 2022 seasonal forecast </button>
-    <button class="btn"><a href="Monthly weather Forecast for November 2022" class="fa fa-download"></a>September 2022 Monthly Forecast</button>
-    <button class="btn"><a href="SEVEN-DAY FORECAST valid 15th to 21st November 2022" class="fa fa-download"></a>SEVEN-DAY FORECAST</button>
-    
-</article>
  <!--contact us-->
- <article class="last-container">
-         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-         <a href="https://web.facebook.com/profile.php?id=100072257630546" class="fa fa-facebook"></a>
-         <p></p>
-         <article class="contact">email us:deyasaitabau@gmail.com<br>
-             <p></p>
-         direct-helpline:+254729533373</article>
-         <article class="about">
-             <h1 style="color:blue;">about kilimonet</h1>
-             <p>kilimonet is a solo proprietorship 
-                 that is committed to provide timely market prices,meteorological and climatological 
-                 information and best livestock rearing practices  to all herders and livestock dealers</p>
-                 <h1 style="color:blue;">useful links:</h1><a href="https://meteo.go.ke/">Kenya Meteorological Department</a>
-                 <p></p>
-                 <a href="https://www.kalro.org/" style="color:purple;">Kenya Agricultural and Livestock Research Organization</a>
-         </article>
- </article>            
- </article>
-</body>
 
+ <article class="last-container">
+                        <div class="footer">
+                        <div class="social-buttons">
+  <a href="#" class="social-button social-button--facebook" aria-label="Facebook" >
+    <i id="icon"id="icon" class="fab fa-facebook-f" ></i>
+  </a>
+  <a href="#" class="social-button social-button--linkedin" aria-label="LinkedIn" >
+    <i id="icon"id="icon" class="fab fa-linkedin-in"></i>
+  </a>
+  <a href="#" class="social-button social-button--snapchat" aria-label="Snapchat" >
+    <i id="icon"id="icon" class="fab fa-snapchat-ghost"></i>
+  </a>
+  <a href="#" class="social-button social-button--github" aria-label="GitHub"     >
+    <i id="icon"id="icon" class="fab fa-github"></i>
+  </a>
+  <a href="#" class="social-button social-button--codepen" aria-label="CodePen" >
+    <i id="icon"id="icon" class="fab fa-codepen"></i>
+  </a>
+</div>
+</div>
+<div>
+<p class="footertext">Contact Us: Email:deyasaitabau@gmail.com</p>
+<p class="footertext"> Direct-helpline:+254729533373</p>
+</div>
+</article>
+
+</body>
 </html>
